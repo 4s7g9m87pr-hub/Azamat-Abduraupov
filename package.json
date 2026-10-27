@@ -1,0 +1,10 @@
+{
+  "name": "azamat-uiux-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Accessible, responsive UI/UX student portfolio for ICT6001",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
