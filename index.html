@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Azamat Abduraupov's UI/UX student portfolio. Explore original interface concepts, design services, and a project brief form.">
+  <meta name="theme-color" content="#f5f3ee">
+  <title>Azamat — UI/UX Designer Portfolio</title>
+  <link rel="icon" href="images/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Azamat, back to home">azamat<span class="brand-dot">.</span></a>
+    <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <a href="#cases">Cases</a><a href="#about">About me</a><a href="#prices">Prices</a><a href="#contact" class="nav-contact">Let's talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero page-grid" id="home" aria-labelledby="hero-title">
+      <header class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> A fresh perspective on digital design</p>
+        <h1 id="hero-title">Good design.<br>Clear <em>purpose.</em></h1>
+        <p class="hero-description">I'm Azamat, an aspiring UI/UX designer. I turn complex ideas into simple, thoughtful digital experiences.</p>
+        <a class="button button-dark" href="#cases">View cases <span aria-hidden="true">↗</span></a>
+        <p class="hero-location"><span aria-hidden="true">◎</span> Based in Almaty, Kazakhstan</p>
+      </header>
+      <figure class="portrait-card">
+        <img src="images/portrait.svg" alt="Illustrated profile avatar, used until Azamat adds his personal photo" width="640" height="760" fetchpriority="high">
+        <figcaption><span><strong>Azamat Abduraupov</strong><small>UI/UX student designer</small></span><span class="portrait-badge" aria-hidden="true">a.</span></figcaption>
+        <span class="portrait-stamp" aria-hidden="true">Made with<br>curiosity <span>✳</span></span>
+      </figure>
+      <aside class="hero-baseline"><span>Thoughtful interfaces. Human experiences.</span><a href="#cases">Scroll to explore <span aria-hidden="true">↓</span></a></aside>
+    </section>
+
+    <section id="cases" class="work section-space" aria-labelledby="work-title">
+      <header class="section-header"><hgroup><p class="eyebrow">01 / Selected work</p><h2 id="work-title">Small details.<br>Better experiences.</h2></hgroup><p class="section-intro">A collection of original concept projects.<br>Different challenges, one thoughtful approach.</p></header>
+      <section class="project-grid" aria-label="Project gallery">
+        <article class="project-card">
+          <a class="project-image project-noma" href="#case-noma" data-case="noma" aria-label="Open Noma e-commerce concept case"><img src="images/noma.svg" alt="Noma concept: cream and olive homeware shopping website" width="960" height="680" loading="lazy"><span class="project-open" aria-hidden="true">↗</span></a>
+          <header class="project-meta"><hgroup><h3><a href="#case-noma" data-case="noma">Noma</a></h3><p>A quieter kind of shopping.</p></hgroup><span class="tag">E-commerce · UI/UX</span></header>
+        </article>
+        <article class="project-card">
+          <a class="project-image project-moneta" href="#case-moneta" data-case="moneta" aria-label="Open Moneta mobile finance concept case"><img src="images/moneta.svg" alt="Moneta concept: violet finance app with balance and savings screens" width="960" height="680" loading="lazy"><span class="project-open" aria-hidden="true">↗</span></a>
+          <header class="project-meta"><hgroup><h3><a href="#case-moneta" data-case="moneta">Moneta</a></h3><p>Your money. A little clearer.</p></hgroup><span class="tag">Mobile app · Product</span></header>
+        </article>
+        <article class="project-card">
+          <a class="project-image project-forma" href="#case-forma" data-case="forma" aria-label="Open Forma architecture website concept case"><img src="images/forma.svg" alt="Forma concept: editorial architecture website with geometric building illustration" width="960" height="680" loading="lazy"><span class="project-open" aria-hidden="true">↗</span></a>
+          <header class="project-meta"><hgroup><h3><a href="#case-forma" data-case="forma">Forma</a></h3><p>Space for a different perspective.</p></hgroup><span class="tag">Website · Art direction</span></header>
+        </article>
+        <article class="project-card">
+          <a class="project-image project-dala" href="#case-dala" data-case="dala" aria-label="Open Dala travel platform concept case"><img src="images/dala.svg" alt="Dala concept: travel booking interface with mountain illustration and destination cards" width="960" height="680" loading="lazy"><span class="project-open" aria-hidden="true">↗</span></a>
+          <header class="project-meta"><hgroup><h3><a href="#case-dala" data-case="dala">Dala</a></h3><p>Less searching. More discovering.</p></hgroup><span class="tag">Travel · Web design</span></header>
+        </article>
+      </section>
+      <p class="concept-note">Independent student concepts. No client affiliation or measured business results are claimed.</p>
+    </section>
+
+    <section id="about" class="about section-space page-grid" aria-labelledby="about-title">
+      <header class="about-heading"><p class="eyebrow">02 / A little about me</p><h2 id="about-title">Curious mind.<br>Considered design.</h2><span class="about-flower" aria-hidden="true">✳</span></header>
+      <section class="about-content" aria-label="About Azamat"><p class="about-lead">I believe a good interface should feel easy, even when the problem behind it is complex.</p><p>I'm Azamat Abduraupov, a student exploring UI/UX and front-end development. This portfolio brings together my practice in visual hierarchy, responsive layouts, and accessible interactions.</p><p>I enjoy making ideas tangible: from a first sketch to a clear user flow and a working website.</p><ul class="skills" aria-label="Design skills"><li>UI design</li><li>User flows</li><li>Wireframes</li><li>Responsive web</li><li>HTML & CSS</li><li>Prototyping</li></ul></section>
+    </section>
+
+    <section class="process section-space" aria-labelledby="process-title">
+      <header class="section-header"><hgroup><p class="eyebrow">The way I work</p><h2 id="process-title">From a question<br>to a clear direction.</h2></hgroup></header>
+      <ol class="process-grid"><li><span>01</span><h3>Understand</h3><p>Start with the people, the problem, and the goal.</p></li><li><span>02</span><h3>Explore</h3><p>Map the journey. Sketch options. Find a useful structure.</p></li><li><span>03</span><h3>Design</h3><p>Build a clear visual system, one thoughtful detail at a time.</p></li><li><span>04</span><h3>Refine</h3><p>Check the experience on every screen and improve it.</p></li></ol>
+    </section>
+
+    <section id="prices" class="pricing section-space" aria-labelledby="prices-title">
+      <header class="section-header"><hgroup><p class="eyebrow">03 / Services & prices</p><h2 id="prices-title">A good place<br>to start.</h2></hgroup><p class="section-intro">Clear scope. Thoughtful work.<br>Illustrative prices for this student portfolio.</p></header>
+      <section class="pricing-grid" aria-label="Service options">
+        <article class="price-card"><p class="eyebrow">01 / One focused page</p><h3>Landing page</h3><p class="price">₸ 45,000 <small>from</small></p><p>A focused introduction to your idea, product, or service.</p><ul><li>One responsive page</li><li>Desktop & mobile layouts</li><li>One round of revisions</li><li>Organized design assets</li></ul><a class="button button-outline" href="#contact" data-service="Landing page">Discuss a landing page <span aria-hidden="true">↗</span></a></article>
+        <article class="price-card price-featured"><p class="eyebrow">02 / The complete picture</p><span class="price-label">A little more room</span><h3>Website design</h3><p class="price">₸ 95,000 <small>from</small></p><p>A connected experience with room for your story to grow.</p><ul><li>Up to five page layouts</li><li>Desktop & mobile layouts</li><li>Clickable prototype</li><li>Two rounds of revisions</li></ul><a class="button button-dark" href="#contact" data-service="Website design">Discuss a website <span aria-hidden="true">↗</span></a></article>
+        <article class="price-card"><p class="eyebrow">03 / A fresh perspective</p><h3>UX review</h3><p class="price">₸ 25,000 <small>from</small></p><p>Find the moments that make your interface harder to use.</p><ul><li>Review of three screens</li><li>Usability observations</li><li>Practical improvement list</li><li>One follow-up discussion</li></ul><a class="button button-outline" href="#contact" data-service="UX review">Discuss a UX review <span aria-hidden="true">↗</span></a></article>
+      </section>
+      <p class="concept-note">KZT · Example starting prices, not a binding offer. Scope, schedule, and final price are agreed separately.</p>
+    </section>
+
+    <section id="contact" class="contact section-space page-grid" aria-labelledby="contact-title">
+      <header class="contact-copy"><p class="eyebrow">04 / Let's make something useful</p><h2 id="contact-title">Have an idea?<br><em>Let's talk.</em></h2><p>Tell me a little about your project.<br>A good conversation is a good beginning.</p><p class="form-disclosure"><span aria-hidden="true">↳</span> Student demo: this form saves a brief on your device. It does not send email or transmit personal data to a server.</p></header>
+      <form id="project-form" class="project-form" aria-describedby="form-privacy">
+        <p class="field"><label for="client-name">Your name <span aria-hidden="true">*</span></label><input type="text" id="client-name" name="name" autocomplete="name" placeholder="How should I call you?" minlength="2" maxlength="80" required aria-describedby="name-help"><small class="field-hint" id="name-help">At least 2 characters.</small></p>
+        <p class="field"><label for="client-email">Email address <span aria-hidden="true">*</span></label><input type="email" id="client-email" name="email" autocomplete="email" placeholder="you@example.com" maxlength="150" required aria-describedby="email-help"><small class="field-hint" id="email-help">Enter a complete email address.</small></p>
+        <p class="field"><label for="client-phone">Phone <span class="optional">optional</span></label><input type="tel" id="client-phone" name="phone" autocomplete="tel" placeholder="+7 700 000 00 00" pattern="\+?[0-9\s\(\)\-]{7,25}" maxlength="25" aria-describedby="phone-help"><small class="field-hint" id="phone-help">7–25 characters: numbers, spaces, +, ( ), or -.</small></p>
+        <p class="field"><label for="client-spec">Link to technical specifications <span aria-hidden="true">*</span></label><input type="url" id="client-spec" name="specifications" placeholder="https://docs.google.com/…" maxlength="1000" required aria-describedby="spec-help"><small class="field-hint" id="spec-help">Use a full link starting with https:// or http://.</small></p>
+        <p class="field"><label for="service">What do you have in mind?</label><select id="service" name="service"><option value="Not sure yet">Not sure yet — let's explore</option><option>Landing page</option><option>Website design</option><option>UX review</option></select></p>
+        <p class="field"><label for="project-details">A little about your project <span class="optional">optional</span></label><textarea id="project-details" name="details" rows="3" maxlength="2000" placeholder="The idea, the audience, and what you want to achieve."></textarea></p>
+        <label class="consent"><input type="checkbox" name="consent" required><span>I agree to save this brief in this browser. <a href="#privacy" data-legal="privacy">Privacy information</a>.</span></label>
+        <p class="privacy-note" id="form-privacy">Your details stay in this browser. You can export or delete the saved brief below.</p>
+        <button class="button button-dark form-submit" type="submit">Save project brief <span aria-hidden="true">↗</span></button>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        <p id="brief-actions" class="brief-actions" hidden><button type="button" class="text-button" id="download-brief">Download brief ↓</button><button type="button" class="text-button" id="delete-brief">Delete saved brief</button></p>
+        <noscript><p>This demo needs JavaScript to save or download a brief. Required fields still use native HTML validation.</p></noscript>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <section class="footer-top" aria-label="Footer navigation"><a class="wordmark" href="#home">azamat<span class="brand-dot">.</span></a><p>Designed with intention.<br>Built with curiosity.</p><nav aria-label="Design platforms"><a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">Behance <span aria-hidden="true">↗</span></a><a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer">Dribbble <span aria-hidden="true">↗</span></a></nav></section>
+    <section class="footer-bottom" aria-label="Copyright and theme"><p>© 2026 Azamat Abduraupov</p><nav aria-label="Legal information"><a href="#privacy" data-legal="privacy">Privacy</a><a href="#terms" data-legal="terms">Terms</a></nav><button id="theme-toggle" type="button" class="theme-toggle" role="switch" aria-checked="false" aria-label="Dark theme"><span class="theme-icon" aria-hidden="true">◐</span><span id="theme-label">Dark theme</span><span class="toggle-track" aria-hidden="true"><span></span></span></button></section>
+    <p class="footer-note">ICT6001 · UI/UX Designer Portfolio Website · Student concept project</p>
+  </footer>
+
+  <a class="mobile-contact" href="#contact">Let's talk about your idea <span aria-hidden="true">↗</span></a>
+
+  <dialog id="case-dialog" class="case-dialog" aria-labelledby="case-title"><button type="button" class="dialog-close" aria-label="Close case study">×</button><article id="case-content"></article></dialog>
+  <dialog id="legal-dialog" class="legal-dialog" aria-labelledby="legal-title"><button type="button" class="dialog-close" aria-label="Close legal information">×</button><article id="legal-content"></article></dialog>
+</body>
+</html>
